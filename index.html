@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Modal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="gallery">
+       
+        <img src="./images/image6.jpeg" alt="Image 6" onclick="openModal(this)">
+        <img src="./images/image6.jpeg" alt="Image 6" onclick="openModal(this)">
+        <img src="./images/image6.jpeg" alt="Image 6" onclick="openModal(this)">
+        <img src="./images/image6.jpeg" alt="Image 6" onclick="openModal(this)">
+        <img src="./images/image6.jpeg" alt="Image 6" onclick="openModal(this)">
+        <img src="./images/image6.jpeg" alt="Image 6" onclick="openModal(this)">
+        <img src="./images/image6.jpeg" alt="Image 6" onclick="openModal(this)">
+        <img src="./images/image6.jpeg" alt="Image 6" onclick="openModal(this)">
+
+        
+    </div>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
